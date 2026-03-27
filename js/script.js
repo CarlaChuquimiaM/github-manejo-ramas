@@ -6,3 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
     mensaje.textContent = "Bienvenidos";
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const btnTema = document.getElementById("btnTema");
+
+  btnTema.addEventListener("click", function () {
+    document.body.classList.toggle("dark");
+  });
+});
