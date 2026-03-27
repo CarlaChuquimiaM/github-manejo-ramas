@@ -1,0 +1,25 @@
+:root {
+  --verde-limon: #C3FB34;
+  --azul-gatuno: #4142F5;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+header {
+  background-color: var(--azul-gatuno);
+  color: white;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: var(--verde-limon);
+  border: none;
+  font-weight: bold;
+}
